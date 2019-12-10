@@ -10,10 +10,10 @@
 		A0035679239ADBFD00310E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0035678239ADBFD00310E43 /* AppDelegate.swift */; };
 		A003567B239ADBFD00310E43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003567A239ADBFD00310E43 /* SceneDelegate.swift */; };
 		A003567D239ADBFD00310E43 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003567C239ADBFD00310E43 /* MainVC.swift */; };
-		A0035680239ADBFD00310E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003567E239ADBFD00310E43 /* Main.storyboard */; };
 		A0035683239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0035681239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodeld */; };
 		A0035685239ADBFF00310E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0035684239ADBFF00310E43 /* Assets.xcassets */; };
 		A0244486239EE58F003D21EB /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0244485239EE58F003D21EB /* ContainerVC.swift */; };
+		A0A2233223A02B2400F2AC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A2233023A02B2400F2AC5D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		A0035678239ADBFD00310E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A003567A239ADBFD00310E43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A003567C239ADBFD00310E43 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
-		A003567F239ADBFD00310E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0035682239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seeking_Tulsa.xcdatamodel; sourceTree = "<group>"; };
 		A0035684239ADBFF00310E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0035689239ADBFF00310E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0244485239EE58F003D21EB /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		A0A2233123A02B2400F2AC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Side Menu/Side Menu/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				A003567A239ADBFD00310E43 /* SceneDelegate.swift */,
 				A003567C239ADBFD00310E43 /* MainVC.swift */,
 				A0244485239EE58F003D21EB /* ContainerVC.swift */,
-				A003567E239ADBFD00310E43 /* Main.storyboard */,
+				A0A2233023A02B2400F2AC5D /* Main.storyboard */,
 				A0035684239ADBFF00310E43 /* Assets.xcassets */,
 				A0035689239ADBFF00310E43 /* Info.plist */,
 				A0035681239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodeld */,
@@ -129,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0035685239ADBFF00310E43 /* Assets.xcassets in Resources */,
-				A0035680239ADBFD00310E43 /* Main.storyboard in Resources */,
+				A0A2233223A02B2400F2AC5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,10 +151,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A003567E239ADBFD00310E43 /* Main.storyboard */ = {
+		A0A2233023A02B2400F2AC5D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A003567F239ADBFD00310E43 /* Base */,
+				A0A2233123A02B2400F2AC5D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

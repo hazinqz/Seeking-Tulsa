@@ -10,7 +10,7 @@
         <!--ContainerVC-->
         <scene sceneID="CXl-r4-Q2D">
             <objects>
-                <viewController id="SRx-nX-vaA" customClass="ContainerVC" customModule="Seeking_Tulsa" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SRx-nX-vaA" customClass="ContainerVC" sceneMemberID="viewController" >
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CRG-Sr-8Sx"/>
                         <viewControllerLayoutGuide type="bottom" id="CVe-2H-4Lr"/>
@@ -24,15 +24,9 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="BVh-Qe-2D1"/>
                                 </constraints>
-                                <connections>
-                                    <segue destination="fOq-JL-xGo" kind="embed" identifier="ShowSideMenu" id="isi-TP-T0E"/>
-                                </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6m-AK-SDf">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <connections>
-                                    <segue destination="IW3-sh-Mp2" kind="embed" identifier="ShowNavigation" id="i8h-wj-yz2"/>
-                                </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -55,19 +49,20 @@
         <!--Side MenuVC-->
         <scene sceneID="IGA-uA-UUx">
             <objects>
-                <tableViewController wantsFullScreenLayout="YES" id="fOq-JL-xGo" customClass="SideMenuVC" customModule="Seeking_Tulsa" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Fz-39-ZGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController wantsFullScreenLayout="YES" id="fOq-JL-xGo" customClass="SideMenuVC" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="YDx-vG-fqg">
-                        <rect key="frame" x="0.0" y="0.0" width="240" height="862"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
                             <tableViewSection id="hpn-OL-73T">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="i8X-Y6-otb">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="44"/>
+                                        <rect key="frame" x="0.0" y="18" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i8X-Y6-otb" id="SSR-As-pPw">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Rb-J7-jRR">
@@ -88,10 +83,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="HDg-bd-CRj">
-                                        <rect key="frame" x="0.0" y="62" width="240" height="44"/>
+                                        <rect key="frame" x="0.0" y="62" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HDg-bd-CRj" id="ezV-T8-4iL">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKz-MW-cvU">
@@ -112,10 +107,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="u0t-OO-64N">
-                                        <rect key="frame" x="0.0" y="106" width="240" height="44"/>
+                                        <rect key="frame" x="0.0" y="106" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="u0t-OO-64N" id="YBm-Ez-wFO">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log Out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIf-D1-5JG">
@@ -139,11 +134,7 @@
                             </tableViewSection>
                         </sections>
                     </tableView>
-                    <connections>
-                        <outlet property="sideMenuConstraint" destination="YDx-vG-fqg" id="89D-6h-91j"/>
-                    </connections>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Fz-39-ZGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-146" y="880"/>
         </scene>
