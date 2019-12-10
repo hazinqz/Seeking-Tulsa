@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0035679239ADBFD00310E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0035678239ADBFD00310E43 /* AppDelegate.swift */; };
+		A003567B239ADBFD00310E43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003567A239ADBFD00310E43 /* SceneDelegate.swift */; };
+		A003567D239ADBFD00310E43 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003567C239ADBFD00310E43 /* MainVC.swift */; };
+		A0035680239ADBFD00310E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A003567E239ADBFD00310E43 /* Main.storyboard */; };
+		A0035683239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0035681239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodeld */; };
+		A0035685239ADBFF00310E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0035684239ADBFF00310E43 /* Assets.xcassets */; };
+		A0244486239EE58F003D21EB /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0244485239EE58F003D21EB /* ContainerVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0035675239ADBFD00310E43 /* Seeking Tulsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seeking Tulsa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0035678239ADBFD00310E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A003567A239ADBFD00310E43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A003567C239ADBFD00310E43 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A003567F239ADBFD00310E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0035682239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seeking_Tulsa.xcdatamodel; sourceTree = "<group>"; };
+		A0035684239ADBFF00310E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0035689239ADBFF00310E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0244485239EE58F003D21EB /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0035672239ADBFD00310E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A003566C239ADBFD00310E43 = {
+			isa = PBXGroup;
+			children = (
+				A0035677239ADBFD00310E43 /* Seeking Tulsa */,
+				A0035676239ADBFD00310E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0035676239ADBFD00310E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0035675239ADBFD00310E43 /* Seeking Tulsa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0035677239ADBFD00310E43 /* Seeking Tulsa */ = {
+			isa = PBXGroup;
+			children = (
+				A0035678239ADBFD00310E43 /* AppDelegate.swift */,
+				A003567A239ADBFD00310E43 /* SceneDelegate.swift */,
+				A003567C239ADBFD00310E43 /* MainVC.swift */,
+				A0244485239EE58F003D21EB /* ContainerVC.swift */,
+				A003567E239ADBFD00310E43 /* Main.storyboard */,
+				A0035684239ADBFF00310E43 /* Assets.xcassets */,
+				A0035689239ADBFF00310E43 /* Info.plist */,
+				A0035681239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodeld */,
+			);
+			path = "Seeking Tulsa";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0035674239ADBFD00310E43 /* Seeking Tulsa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A003568C239ADBFF00310E43 /* Build configuration list for PBXNativeTarget "Seeking Tulsa" */;
+			buildPhases = (
+				A0035671239ADBFD00310E43 /* Sources */,
+				A0035672239ADBFD00310E43 /* Frameworks */,
+				A0035673239ADBFD00310E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seeking Tulsa";
+			productName = "Seeking Tulsa";
+			productReference = A0035675239ADBFD00310E43 /* Seeking Tulsa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A003566D239ADBFD00310E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Gauge Parker";
+				TargetAttributes = {
+					A0035674239ADBFD00310E43 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A0035670239ADBFD00310E43 /* Build configuration list for PBXProject "Seeking Tulsa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A003566C239ADBFD00310E43;
+			productRefGroup = A0035676239ADBFD00310E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0035674239ADBFD00310E43 /* Seeking Tulsa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0035673239ADBFD00310E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0035685239ADBFF00310E43 /* Assets.xcassets in Resources */,
+				A0035680239ADBFD00310E43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0035671239ADBFD00310E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0035683239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodeld in Sources */,
+				A003567D239ADBFD00310E43 /* MainVC.swift in Sources */,
+				A0035679239ADBFD00310E43 /* AppDelegate.swift in Sources */,
+				A003567B239ADBFD00310E43 /* SceneDelegate.swift in Sources */,
+				A0244486239EE58F003D21EB /* ContainerVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A003567E239ADBFD00310E43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A003567F239ADBFD00310E43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A003568A239ADBFF00310E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A003568B239ADBFF00310E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A003568D239ADBFF00310E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPX84GVL4G;
+				INFOPLIST_FILE = "Seeking Tulsa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comTulsaTech.Seeking-Tulsa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A003568E239ADBFF00310E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPX84GVL4G;
+				INFOPLIST_FILE = "Seeking Tulsa/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "comTulsaTech.Seeking-Tulsa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0035670239ADBFD00310E43 /* Build configuration list for PBXProject "Seeking Tulsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A003568A239ADBFF00310E43 /* Debug */,
+				A003568B239ADBFF00310E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A003568C239ADBFF00310E43 /* Build configuration list for PBXNativeTarget "Seeking Tulsa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A003568D239ADBFF00310E43 /* Debug */,
+				A003568E239ADBFF00310E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0035681239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0035682239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodel */,
+			);
+			currentVersion = A0035682239ADBFD00310E43 /* Seeking_Tulsa.xcdatamodel */;
+			path = Seeking_Tulsa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A003566D239ADBFD00310E43 /* Project object */;
+}
